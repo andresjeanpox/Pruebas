@@ -1,0 +1,9 @@
+[project]
+name = "tpv-practica"
+version = "0.1.0"
+description = "TPV de La Tiendita (proyecto de práctica de depuración)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

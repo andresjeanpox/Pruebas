@@ -1,0 +1,12 @@
+codigo;nombre;precio;iva;stock
+P001;Pan de barra;0.83;superreducido;40
+P002;Leche entera 1L;0.95;superreducido;24
+P003;Café molido 250g;3.20;reducido;15
+P004;Piña;1.80;superreducido;10
+P005;Agua 1,5L;0.40;reducido;5
+P006;Aceitunas rellenas;1.35;Reducido ;30
+P007;Chicle de menta;0.50;general;50
+P008;Detergente;4.95;general;8
+P009;Jamón cocido 200g;2.40;reducido;12
+P010;Pilas AA (4 uds);3.99;general;20
+P011;Turrón de Jijona;6.50;reducido;6
