@@ -11,12 +11,12 @@ Las marcadas con **(sin test)** no tienen prueba automática: escríbela tú ant
 ### POS-101 🟢 El programa se cierra si me equivoco con la cantidad
 > Estaba añadiendo pan y en vez de "2" escribí "dos". El TPV se cerró de golpe y perdí la venta
 > entera. Tampoco debería dejarme poner 0 o una cantidad negativa.
-> (Marta, caja 1)
+> (Marta, caja 1) [TERMINADO]
 
 ### POS-102 🟢 La hora del ticket no es la real
 > Un cliente se queja de que su ticket pone las 18:09 y eran las 18:40. Los minutos del ticket
 > no tienen nada que ver con la hora de verdad.
-> (Luis, encargado)
+> (Luis, encargado) [TERMINADO]
 
 ### POS-103 🟢 No puedo cobrar cuando me dan el dinero justo
 > El total era 7,30 € y la clienta me dio exactamente 7,30 €. El TPV me dice que falta dinero.

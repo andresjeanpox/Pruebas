@@ -28,7 +28,7 @@ def leer_cantidad(texto: str):
             return None
     except ValueError:
         return None
-    return int(texto)
+    return cantidad
 
 
 def leer_importe(texto: str):
