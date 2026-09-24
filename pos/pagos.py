@@ -10,7 +10,7 @@ class PagoInsuficiente(Exception):
 
 def cobrar(total: Decimal, entregado: Decimal) -> Decimal:
     """Devuelve el cambio. Lanza PagoInsuficiente si no llega."""
-    if entregado <= total:
+    if entregado < total:
         raise PagoInsuficiente(f"Faltan {total - entregado} €")
     return entregado - total
 
