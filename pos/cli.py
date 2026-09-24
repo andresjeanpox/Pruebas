@@ -22,6 +22,12 @@ ERRORES_DE_NEGOCIO = (ProductoNoEncontrado, StockInsuficiente, PagoInsuficiente,
 
 def leer_cantidad(texto: str):
     """Convierte lo que escribe el cajero en una cantidad. Devuelve None si no vale."""
+    try:
+        cantidad = int(texto.strip())
+        if cantidad <= 0:
+            return None
+    except ValueError:
+        return None
     return int(texto)
 
 
