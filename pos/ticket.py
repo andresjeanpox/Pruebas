@@ -9,7 +9,7 @@ ANCHO = 40
 
 def formatear_fecha(momento: datetime) -> str:
     """datetime(2026, 9, 23, 14, 5) -> '23/09/2026 14:05'"""
-    return momento.strftime("%d/%m/%Y %H:%m")
+    return momento.strftime("%d/%m/%Y %H:%M")
 
 
 def _fila(izquierda: str, importe: Decimal) -> str:
